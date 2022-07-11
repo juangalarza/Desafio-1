@@ -5,7 +5,7 @@ export default function Index() {
     return (
       <div className='card'>
         <div className='card-img'>
-          <Image src='/vercel.svg' width="300px" height="100%" />
+          <Image src='/vercel.svg' width='300px' height='100%' />
         </div>
         <hr />
         <div className='card-title'>
