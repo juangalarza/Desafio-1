@@ -1,10 +1,11 @@
 import React from 'react';
+import Image from 'next/image';
 
 export default function Index() {
     return (
       <div className='card'>
         <div className='card-img'>
-          <img src='./vercel.svg' />
+          <Image src='/vercel.svg' width="300px" height="100%" />
         </div>
         <hr />
         <div className='card-title'>
